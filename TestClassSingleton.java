@@ -4,7 +4,7 @@ public class TestClassSingleton {
         ClassSingleton classSingleton2 = ClassSingleton.getInstance();
 
         System.out.println("Test ClassSingleton");
-        System.out.println("1: "+classSingleton1.g);
-        System.out.println("2: "+classSingleton2);
+        System.out.println("1: "+classSingleton1.getDescription());
+        System.out.println("2: "+classSingleton2.getDescription());
     }
 }
