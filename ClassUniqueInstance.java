@@ -8,4 +8,12 @@ public enum ClassUniqueInstance {
     public ClassUniqueInstance getInstance(){
         return INSTANCE;
     }
+
+    public int getClick() {
+        return click;
+    }
+
+    public void setClick(int click) {
+        this.click = click;
+    }
 }

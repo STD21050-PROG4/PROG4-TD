@@ -11,4 +11,20 @@ public final class ClassSingleton {
 
         return INSTANCE;
     }
+
+    public static ClassSingleton getINSTANCE() {
+        return INSTANCE;
+    }
+
+    public static void setINSTANCE(ClassSingleton INSTANCE) {
+        ClassSingleton.INSTANCE = INSTANCE;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
